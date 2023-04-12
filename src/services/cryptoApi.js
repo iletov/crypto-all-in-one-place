@@ -15,8 +15,12 @@ export const cryptoApi = createApi({
         //random name
         randomName: builder.query({
             query: (count) => createRequest(`/coins?limit=${count}`)
+        }),
+
+        getCryptoDetails: builder.query({
+            query: (coinId) => createRequest(`/coin/${coinId}`),
         })
     })
 });
 
-export const { useRandomNameQuery, } = cryptoApi;
+export const { useRandomNameQuery, useGetCryptoDetailsQuery } = cryptoApi;

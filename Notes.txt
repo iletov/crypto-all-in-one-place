@@ -1,0 +1,9 @@
+dependencies: 
+npm install antd @ant-design/icons react-redux @reduxjs/toolkit axios chart.js html-react-parser millify moment react-chartjs-2
+
+create services/cryptoAPi.js
+
+create app/store.js 
+    -> index.js import store and Provider
+    wrap the App with Provider and set props store={store}
+    every component has accsess to the store
