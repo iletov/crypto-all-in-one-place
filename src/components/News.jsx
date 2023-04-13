@@ -11,7 +11,7 @@ const demoImage = 'https://www.bing.com/th?id=OVFT.mpzuVZnv8dwIMRfQGPbOPC&pid=Ne
 
 const News = ({ simplified }) => {
   const { data: cryptoNews } = useGetCryptoNewsQuery({ newsCategory: 'Cryptocurrency', count: simplified ? 6 : 12 });
-  console.log(cryptoNews)
+  // console.log(cryptoNews)
 
   if(!cryptoNews?.value) return 'Loading ...';
 
