@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <div><Typography.Title level={5} style={{ color: 'white', textAlign: 'center' }}>Copyright © 2021
     <Link to="/">
-      CryptoInfo.
+      CryptoWorld.
     </Link> <br />
     All Rights Reserved.
   </Typography.Title>
