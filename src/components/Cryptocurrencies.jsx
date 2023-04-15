@@ -5,6 +5,7 @@ import { useRandomNameQuery } from '../services/cryptoApi'
 import { Row, Card, Col, Input } from 'antd';
 import millify from 'millify';
 import { Link } from 'react-router-dom';
+import Loader from './Loader';
  
 const Cryptocurrencies = ({ simplified }) => {
   const count = simplified ? 10 : 100;
@@ -20,7 +21,7 @@ const Cryptocurrencies = ({ simplified }) => {
 
   // console.log(cryptos);
   
-  if(isFetching) return 'Loading ...';
+  if(isFetching) return <Loader/>;
 
   return (
     <>
