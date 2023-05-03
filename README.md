@@ -1,7 +1,6 @@
-https://cryptoworld-4txi.onrender.com/
-
-##Cryptocurrencies React Application with indebth data about all cryptocurrencies. 
-##Popular crypto news and details for every single crypto including live charts.
+https://cryptoworld-4txi.onrender.com/ 
+Cryptocurrencies React Application with indebth data about all cryptocurrencies.
+Popular crypto news and details for every single crypto including live charts.
 
 Created with React Js, Redux Toolkit, Ant Design, Chart Js and Rapid API.
 
